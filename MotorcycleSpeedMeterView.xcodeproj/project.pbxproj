@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32716F4024B0809D009CC539 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32716F3F24B0809D009CC539 /* AppDelegate.swift */; };
+		32716F4224B0809D009CC539 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32716F4124B0809D009CC539 /* SceneDelegate.swift */; };
+		32716F4424B0809D009CC539 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32716F4324B0809D009CC539 /* ViewController.swift */; };
+		32716F4724B0809D009CC539 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32716F4524B0809D009CC539 /* Main.storyboard */; };
+		32716F4924B080A0009CC539 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32716F4824B080A0009CC539 /* Assets.xcassets */; };
+		32716F4C24B080A0009CC539 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32716F4A24B080A0009CC539 /* LaunchScreen.storyboard */; };
+		32716F5724B080A1009CC539 /* MotorcycleSpeedMeterViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32716F5624B080A1009CC539 /* MotorcycleSpeedMeterViewTests.swift */; };
+		32716F6224B080A1009CC539 /* MotorcycleSpeedMeterViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32716F6124B080A1009CC539 /* MotorcycleSpeedMeterViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32716F5324B080A1009CC539 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32716F3424B0809D009CC539 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32716F3B24B0809D009CC539;
+			remoteInfo = MotorcycleSpeedMeterView;
+		};
+		32716F5E24B080A1009CC539 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32716F3424B0809D009CC539 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32716F3B24B0809D009CC539;
+			remoteInfo = MotorcycleSpeedMeterView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32716F3C24B0809D009CC539 /* MotorcycleSpeedMeterView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotorcycleSpeedMeterView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32716F3F24B0809D009CC539 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32716F4124B0809D009CC539 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		32716F4324B0809D009CC539 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32716F4624B0809D009CC539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32716F4824B080A0009CC539 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32716F4B24B080A0009CC539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32716F4D24B080A0009CC539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32716F5224B080A1009CC539 /* MotorcycleSpeedMeterViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotorcycleSpeedMeterViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32716F5624B080A1009CC539 /* MotorcycleSpeedMeterViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorcycleSpeedMeterViewTests.swift; sourceTree = "<group>"; };
+		32716F5824B080A1009CC539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32716F5D24B080A1009CC539 /* MotorcycleSpeedMeterViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotorcycleSpeedMeterViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32716F6124B080A1009CC539 /* MotorcycleSpeedMeterViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorcycleSpeedMeterViewUITests.swift; sourceTree = "<group>"; };
+		32716F6324B080A1009CC539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32716F3924B0809D009CC539 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32716F4F24B080A1009CC539 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32716F5A24B080A1009CC539 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32716F3324B0809D009CC539 = {
+			isa = PBXGroup;
+			children = (
+				32716F3E24B0809D009CC539 /* MotorcycleSpeedMeterView */,
+				32716F5524B080A1009CC539 /* MotorcycleSpeedMeterViewTests */,
+				32716F6024B080A1009CC539 /* MotorcycleSpeedMeterViewUITests */,
+				32716F3D24B0809D009CC539 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32716F3D24B0809D009CC539 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32716F3C24B0809D009CC539 /* MotorcycleSpeedMeterView.app */,
+				32716F5224B080A1009CC539 /* MotorcycleSpeedMeterViewTests.xctest */,
+				32716F5D24B080A1009CC539 /* MotorcycleSpeedMeterViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32716F3E24B0809D009CC539 /* MotorcycleSpeedMeterView */ = {
+			isa = PBXGroup;
+			children = (
+				32716F3F24B0809D009CC539 /* AppDelegate.swift */,
+				32716F4124B0809D009CC539 /* SceneDelegate.swift */,
+				32716F4324B0809D009CC539 /* ViewController.swift */,
+				32716F4524B0809D009CC539 /* Main.storyboard */,
+				32716F4824B080A0009CC539 /* Assets.xcassets */,
+				32716F4A24B080A0009CC539 /* LaunchScreen.storyboard */,
+				32716F4D24B080A0009CC539 /* Info.plist */,
+			);
+			path = MotorcycleSpeedMeterView;
+			sourceTree = "<group>";
+		};
+		32716F5524B080A1009CC539 /* MotorcycleSpeedMeterViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				32716F5624B080A1009CC539 /* MotorcycleSpeedMeterViewTests.swift */,
+				32716F5824B080A1009CC539 /* Info.plist */,
+			);
+			path = MotorcycleSpeedMeterViewTests;
+			sourceTree = "<group>";
+		};
+		32716F6024B080A1009CC539 /* MotorcycleSpeedMeterViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32716F6124B080A1009CC539 /* MotorcycleSpeedMeterViewUITests.swift */,
+				32716F6324B080A1009CC539 /* Info.plist */,
+			);
+			path = MotorcycleSpeedMeterViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32716F3B24B0809D009CC539 /* MotorcycleSpeedMeterView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32716F6624B080A1009CC539 /* Build configuration list for PBXNativeTarget "MotorcycleSpeedMeterView" */;
+			buildPhases = (
+				32716F3824B0809D009CC539 /* Sources */,
+				32716F3924B0809D009CC539 /* Frameworks */,
+				32716F3A24B0809D009CC539 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotorcycleSpeedMeterView;
+			productName = MotorcycleSpeedMeterView;
+			productReference = 32716F3C24B0809D009CC539 /* MotorcycleSpeedMeterView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32716F5124B080A1009CC539 /* MotorcycleSpeedMeterViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32716F6924B080A1009CC539 /* Build configuration list for PBXNativeTarget "MotorcycleSpeedMeterViewTests" */;
+			buildPhases = (
+				32716F4E24B080A1009CC539 /* Sources */,
+				32716F4F24B080A1009CC539 /* Frameworks */,
+				32716F5024B080A1009CC539 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32716F5424B080A1009CC539 /* PBXTargetDependency */,
+			);
+			name = MotorcycleSpeedMeterViewTests;
+			productName = MotorcycleSpeedMeterViewTests;
+			productReference = 32716F5224B080A1009CC539 /* MotorcycleSpeedMeterViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32716F5C24B080A1009CC539 /* MotorcycleSpeedMeterViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32716F6C24B080A1009CC539 /* Build configuration list for PBXNativeTarget "MotorcycleSpeedMeterViewUITests" */;
+			buildPhases = (
+				32716F5924B080A1009CC539 /* Sources */,
+				32716F5A24B080A1009CC539 /* Frameworks */,
+				32716F5B24B080A1009CC539 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32716F5F24B080A1009CC539 /* PBXTargetDependency */,
+			);
+			name = MotorcycleSpeedMeterViewUITests;
+			productName = MotorcycleSpeedMeterViewUITests;
+			productReference = 32716F5D24B080A1009CC539 /* MotorcycleSpeedMeterViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32716F3424B0809D009CC539 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Thinh Le";
+				TargetAttributes = {
+					32716F3B24B0809D009CC539 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					32716F5124B080A1009CC539 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 32716F3B24B0809D009CC539;
+					};
+					32716F5C24B080A1009CC539 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 32716F3B24B0809D009CC539;
+					};
+				};
+			};
+			buildConfigurationList = 32716F3724B0809D009CC539 /* Build configuration list for PBXProject "MotorcycleSpeedMeterView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32716F3324B0809D009CC539;
+			productRefGroup = 32716F3D24B0809D009CC539 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32716F3B24B0809D009CC539 /* MotorcycleSpeedMeterView */,
+				32716F5124B080A1009CC539 /* MotorcycleSpeedMeterViewTests */,
+				32716F5C24B080A1009CC539 /* MotorcycleSpeedMeterViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32716F3A24B0809D009CC539 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32716F4C24B080A0009CC539 /* LaunchScreen.storyboard in Resources */,
+				32716F4924B080A0009CC539 /* Assets.xcassets in Resources */,
+				32716F4724B0809D009CC539 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32716F5024B080A1009CC539 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32716F5B24B080A1009CC539 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32716F3824B0809D009CC539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32716F4424B0809D009CC539 /* ViewController.swift in Sources */,
+				32716F4024B0809D009CC539 /* AppDelegate.swift in Sources */,
+				32716F4224B0809D009CC539 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32716F4E24B080A1009CC539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32716F5724B080A1009CC539 /* MotorcycleSpeedMeterViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32716F5924B080A1009CC539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32716F6224B080A1009CC539 /* MotorcycleSpeedMeterViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32716F5424B080A1009CC539 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32716F3B24B0809D009CC539 /* MotorcycleSpeedMeterView */;
+			targetProxy = 32716F5324B080A1009CC539 /* PBXContainerItemProxy */;
+		};
+		32716F5F24B080A1009CC539 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32716F3B24B0809D009CC539 /* MotorcycleSpeedMeterView */;
+			targetProxy = 32716F5E24B080A1009CC539 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32716F4524B0809D009CC539 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32716F4624B0809D009CC539 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32716F4A24B080A0009CC539 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32716F4B24B080A0009CC539 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32716F6424B080A1009CC539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32716F6524B080A1009CC539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32716F6724B080A1009CC539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2S78UX6KB;
+				INFOPLIST_FILE = MotorcycleSpeedMeterView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinhle.MotorcycleSpeedMeterView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32716F6824B080A1009CC539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2S78UX6KB;
+				INFOPLIST_FILE = MotorcycleSpeedMeterView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinhle.MotorcycleSpeedMeterView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		32716F6A24B080A1009CC539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2S78UX6KB;
+				INFOPLIST_FILE = MotorcycleSpeedMeterViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinhle.MotorcycleSpeedMeterViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotorcycleSpeedMeterView.app/MotorcycleSpeedMeterView";
+			};
+			name = Debug;
+		};
+		32716F6B24B080A1009CC539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2S78UX6KB;
+				INFOPLIST_FILE = MotorcycleSpeedMeterViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinhle.MotorcycleSpeedMeterViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotorcycleSpeedMeterView.app/MotorcycleSpeedMeterView";
+			};
+			name = Release;
+		};
+		32716F6D24B080A1009CC539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2S78UX6KB;
+				INFOPLIST_FILE = MotorcycleSpeedMeterViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinhle.MotorcycleSpeedMeterViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MotorcycleSpeedMeterView;
+			};
+			name = Debug;
+		};
+		32716F6E24B080A1009CC539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2S78UX6KB;
+				INFOPLIST_FILE = MotorcycleSpeedMeterViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinhle.MotorcycleSpeedMeterViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MotorcycleSpeedMeterView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32716F3724B0809D009CC539 /* Build configuration list for PBXProject "MotorcycleSpeedMeterView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32716F6424B080A1009CC539 /* Debug */,
+				32716F6524B080A1009CC539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32716F6624B080A1009CC539 /* Build configuration list for PBXNativeTarget "MotorcycleSpeedMeterView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32716F6724B080A1009CC539 /* Debug */,
+				32716F6824B080A1009CC539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32716F6924B080A1009CC539 /* Build configuration list for PBXNativeTarget "MotorcycleSpeedMeterViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32716F6A24B080A1009CC539 /* Debug */,
+				32716F6B24B080A1009CC539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32716F6C24B080A1009CC539 /* Build configuration list for PBXNativeTarget "MotorcycleSpeedMeterViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32716F6D24B080A1009CC539 /* Debug */,
+				32716F6E24B080A1009CC539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32716F3424B0809D009CC539 /* Project object */;
+}
