@@ -15,6 +15,7 @@
 		32716F4C24B080A0009CC539 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32716F4A24B080A0009CC539 /* LaunchScreen.storyboard */; };
 		32716F5724B080A1009CC539 /* MotorcycleSpeedMeterViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32716F5624B080A1009CC539 /* MotorcycleSpeedMeterViewTests.swift */; };
 		32716F6224B080A1009CC539 /* MotorcycleSpeedMeterViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32716F6124B080A1009CC539 /* MotorcycleSpeedMeterViewUITests.swift */; };
+		32716F7124B08141009CC539 /* MotorcycleSpeedMeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32716F7024B08141009CC539 /* MotorcycleSpeedMeterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		32716F5D24B080A1009CC539 /* MotorcycleSpeedMeterViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotorcycleSpeedMeterViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32716F6124B080A1009CC539 /* MotorcycleSpeedMeterViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorcycleSpeedMeterViewUITests.swift; sourceTree = "<group>"; };
 		32716F6324B080A1009CC539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32716F7024B08141009CC539 /* MotorcycleSpeedMeterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorcycleSpeedMeterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		32716F3E24B0809D009CC539 /* MotorcycleSpeedMeterView */ = {
 			isa = PBXGroup;
 			children = (
+				32716F6F24B08128009CC539 /* Main */,
 				32716F3F24B0809D009CC539 /* AppDelegate.swift */,
 				32716F4124B0809D009CC539 /* SceneDelegate.swift */,
 				32716F4324B0809D009CC539 /* ViewController.swift */,
@@ -126,6 +129,14 @@
 				32716F6324B080A1009CC539 /* Info.plist */,
 			);
 			path = MotorcycleSpeedMeterViewUITests;
+			sourceTree = "<group>";
+		};
+		32716F6F24B08128009CC539 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				32716F7024B08141009CC539 /* MotorcycleSpeedMeterView.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +273,7 @@
 				32716F4424B0809D009CC539 /* ViewController.swift in Sources */,
 				32716F4024B0809D009CC539 /* AppDelegate.swift in Sources */,
 				32716F4224B0809D009CC539 /* SceneDelegate.swift in Sources */,
+				32716F7124B08141009CC539 /* MotorcycleSpeedMeterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
